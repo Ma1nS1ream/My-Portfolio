@@ -294,7 +294,6 @@ position: absolute;
 }
 
 .project-6 .project-title ul li i {
-  padding-left: 280%;
   font-size: 25px;
 }
 
@@ -305,10 +304,6 @@ position: absolute;
 
 .project-title ul li .fa-html5 {
   color: #EC5D28;
-}
-
-.project-title ul li .fa-js-square {
-  color: #F0D91D;
 }
 
 .project-title .website-link {
