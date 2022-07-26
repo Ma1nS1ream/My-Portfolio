@@ -119,9 +119,9 @@ header .nav {
 }
 
 .welcome-part p {
-
 	font-size: 2vw;
 }
+
 .container .welcome-sec .about {
   	width: 500px;
   	text-align: center;
@@ -129,7 +129,6 @@ header .nav {
 }
 
 .welcome-sec .not-visible {
-
 	transform:  translateX(-400%);
 }
 
@@ -146,6 +145,42 @@ header .nav {
 	padding-bottom: 30px;
 	line-height: 20px;
 
+}
+
+.container .welcome-sec .about .icon #html {
+	padding: 1%;
+	font-size: 25px;
+	color: #EC5D28;
+}
+
+.container .welcome-sec .about .icon #css {
+	padding: 1%;
+	font-size: 25px;
+	color: #1B90D4;
+}
+
+.container .welcome-sec .about .icon #js {
+	padding: 1%;
+	font-size: 25px;
+	color: #F0DB4F;
+}
+
+.container .welcome-sec .about .icon #b {
+	padding: 1%;
+	font-size: 25px;
+	color: #563D7C;
+}
+
+.container .welcome-sec .about .icon #sql {
+	padding: 1%;
+	font-size: 25px;
+	color: #1B90D4;
+}
+
+.container .welcome-sec .about .icon #p {
+	padding: 1%;
+	font-size: 25px;
+	color: #F0DB4F;
 }
 
 .container .welcome-sec .about .social i {
