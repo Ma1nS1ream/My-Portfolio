@@ -328,12 +328,12 @@ position: absolute;
 
 
 .project-4 .proj-screenshot {
-  height: 100%;
+  height: 60%;
   width: 100%;
 }
 
 .project-4 .proj-screenshot:hover {
-  height: 120%;
+  height: 80%;
   width: 120%;
   transition: width 1s ease-in-out, height 1s ease-in-out;
 }
@@ -344,13 +344,13 @@ position: absolute;
 
 
 .project-5 .proj-screenshot {
-  height: 100%;
+  height: 60%;
   width: 100%;
 }
 
 .project-5 .proj-screenshot:hover {
-  height: 120%;
-  width: 110%;
+  height: 80%;
+  width: 120%;
   transition: width 1s ease-in-out, height 1s ease-in-out;
 }
 
@@ -360,7 +360,18 @@ position: absolute;
 
 
 .project-6 .proj-screenshot {
-  height: 100%;
+  height: 60%;
+  width: 100%;
+}
+
+.project-6 .proj-screenshot:hover {
+  height: 80%;
+  width: 120%;
+  transition: width 1s ease-in-out, height 1s ease-in-out;
+}
+
+.project-6 .project-title .website-link {
+  top: -20px;
 }
 
 .project-1 .website-link {
@@ -391,11 +402,6 @@ position: absolute;
 .project-6 .website-link {
 
 	margin-top: 10px;
-}
-.project-6 .proj-screenshot:hover {
-  height: 130%;
-  width: 120%;
-  transition: width 1s ease-in-out, height 1s ease-in-out;
 }
 
 .projects-sec .more, .projects-sec .less {
