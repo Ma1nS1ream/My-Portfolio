@@ -201,6 +201,18 @@ header .nav {
 	color: #1B90D4;
 }
 
+.container .welcome-sec .about .icon #g {
+	padding: 1%;
+	font-size: 25px;
+	color: #f1502f;
+}
+
+.container .welcome-sec .about .icon #d {
+	padding: 1%;
+	font-size: 25px;
+	color: #0DB7eD;
+}
+
 .container .welcome-sec .about .icon #p {
 	padding: 1%;
 	font-size: 25px;
