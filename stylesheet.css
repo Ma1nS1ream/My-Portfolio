@@ -183,6 +183,12 @@ header .nav {
 	color: #61DBFB;
 }
 
+.container .welcome-sec .about .icon #n {
+	padding: 1%;
+	font-size: 25px;
+	color: #68A063;
+}
+
 .container .welcome-sec .about .icon #php {
 	padding: 1%;
 	font-size: 25px;
