@@ -125,7 +125,7 @@ header .nav {
 .container .welcome-sec .about {
   	width: 500px;
   	text-align: center;
-	margin: -200px auto 0 auto;
+	margin: -270px auto 0 auto;
 }
 
 .welcome-sec .not-visible {
@@ -171,6 +171,24 @@ header .nav {
 	color: #563D7C;
 }
 
+.container .welcome-sec .about .icon #a {
+	padding: 1%;
+	font-size: 25px;
+	color: #C3002F;
+}
+
+.container .welcome-sec .about .icon #r {
+	padding: 1%;
+	font-size: 25px;
+	color: #61DBFB;
+}
+
+.container .welcome-sec .about .icon #php {
+	padding: 1%;
+	font-size: 25px;
+	color: #474A8A;
+}
+
 .container .welcome-sec .about .icon #sql {
 	padding: 1%;
 	font-size: 25px;
@@ -184,9 +202,12 @@ header .nav {
 }
 
 .container .welcome-sec .about .social i {
-  padding: 15px 0 0 20px;
-  font-size: 25px;
-  color: #A6A5A6;
+	padding-top: 7%;
+    padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 1%;
+    font-size: 25px;
+    color: #A6A5A6;
 }
 
 .container .welcome-sec .about .social i:hover {
@@ -199,8 +220,8 @@ header .nav {
   justify-content: center;
 
 position: absolute;
-  left: 600px;
-  top: 450px;
+  left: 48.5%;
+  top: 85%;
 
 }
 
