@@ -195,6 +195,12 @@ header .nav {
 	color: #474A8A;
 }
 
+.container .welcome-sec .about .icon #l {
+	padding: 1%;
+	font-size: 25px;
+	color: #F05340;
+}
+
 .container .welcome-sec .about .icon #sql {
 	padding: 1%;
 	font-size: 25px;
