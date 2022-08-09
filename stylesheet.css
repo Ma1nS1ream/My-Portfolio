@@ -369,7 +369,7 @@ position: absolute;
 }
 
 .project-title ul li i {
-  padding-left: 120%;
+  padding-left: 280%;
   font-size: 25px;
 }
 
@@ -377,15 +377,17 @@ position: absolute;
   font-size: 25px;
 }
 
-.project-title ul li .fa-css3-alt {
-  color: #1B90D4;
-   
-}
-
 .project-title ul li .fa-html5 {
   color: #EC5D28;
 }
 
+.project-title ul li .fa-css3-alt {
+  color: #1B90D4; 
+}
+
+.project-title ul li .fa-js-square {
+  color: #F0DB4F; 
+}
 .project-title .website-link {
   	position: relative;
 	right: 60px;
@@ -396,91 +398,60 @@ position: absolute;
   	font-weight: 600;
 }
 
-
 .project-container .project-2 {
   margin-left: 90px;
 }
 
-.project-3 .project-title .website-link {
+.project-3 .project-title .website-link,
+.project-4 .project-title .website-link,
+.project-5 .project-title .website-link,
+.project-6 .project-title .website-link,
+.project-7 .project-title .website-link,
+.project-8 .project-title .website-link,
+.project-9 .project-title .website-link,
+.project-10 .project-title .website-link {
   top: -20px;
 }
 
 
 
-.project-4 .proj-screenshot {
+.project-4 .proj-screenshot,
+.project-5 .proj-screenshot,
+.project-6 .proj-screenshot,
+.project-7 .proj-screenshot,
+.project-8 .proj-screenshot,
+.project-9 .proj-screenshot,
+.project-10 .proj-screenshot {
   height: 60%;
   width: 100%;
 }
 
-.project-4 .proj-screenshot:hover {
+.project-4 .proj-screenshot:hover,
+.project-5 .proj-screenshot:hover,
+.project-6 .proj-screenshot:hover,
+.project-7 .proj-screenshot:hover,
+.project-8 .proj-screenshot:hover,
+.project-9 .proj-screenshot:hover,
+.project-10 .proj-screenshot:hover {
   height: 80%;
   width: 120%;
   transition: width 1s ease-in-out, height 1s ease-in-out;
 }
 
-.project-4 .project-title .website-link {
-  top: -20px;
-}
 
-
-.project-5 .proj-screenshot {
-  height: 60%;
-  width: 100%;
-}
-
-.project-5 .proj-screenshot:hover {
-  height: 80%;
-  width: 120%;
-  transition: width 1s ease-in-out, height 1s ease-in-out;
-}
-
-.project-5 .project-title .website-link {
-  top: -20px;
-}
-
-
-.project-6 .proj-screenshot {
-  height: 60%;
-  width: 100%;
-}
-
-.project-6 .proj-screenshot:hover {
-  height: 80%;
-  width: 120%;
-  transition: width 1s ease-in-out, height 1s ease-in-out;
-}
-
-.project-6 .project-title .website-link {
-  top: -20px;
-}
-
-.project-1 .website-link {
-
-	top: 10px;
-}
-
-.project-2 .website-link {
-	top: 10px;
-}
-
-.project-3 .website-link {
-
-
+.project-3 .website-link,
+.project-4 .website-link,
+.project-5 .website-link,
+.project-6 .website-link,
+.project-7 .website-link,
+.project-8 .website-link,
+.project-9 .website-link,
+.project-10 .website-link {
 	margin-top: 25px;
 }
 
-.project-4 .website-link {
-
-	margin-top: 40px;
-}
-
-.project-5 .website-link {
-
-	margin-top: 30px;
-}
-
-.project-6 .website-link {
-
+.project-1 .website-link,
+.project-2 .website-link {
 	margin-top: 10px;
 }
 
