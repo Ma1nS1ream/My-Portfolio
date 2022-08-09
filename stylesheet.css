@@ -4,23 +4,25 @@
 	scroll-behavior: smooth;
 	font-size: 16px;
 }
+
 .nav-icon, .mobile-navbar {
 	display: none;
 }
+
 html, body {
   	overflow-x: hidden;
   	width: 100%;
   	font-family: "Lato", sans-serif;
   	font-size: 16px;
 }
-header {
 
+header {
   	height: 10vh;
 	background-color: #2E2630;
 	font-family: "Gugi", cursive;
 }
-header .nav {
 
+header .nav {
 	display: flex;
   	flex-direction: row;
   	justify-content: flex-end;
@@ -35,7 +37,6 @@ header .nav {
 }
 
 .nav a {
-
 	padding: 0 40px 0 50px;
 	color: #FFFFFF;
   	text-decoration: none;
@@ -43,56 +44,40 @@ header .nav {
 	margin-top: -5px;
 }
 .nav a:hover {
-
   	color: #FC2277;
 }
 
 .container .welcome-sec {
-
 	background-color: #2E2630;
   	color: #FFFFFF;
   	text-align: center;
   	height: 90vh;
   	position: relative;
-
-
 }
+
 .welcome-sec .welcome-part {
   	margin: 0 auto;
-
 }
 
-
 @keyframes sliding-forward {
-
 	from {transform: translateX(0%);}
 	to {transform: translateX(400%);}
 }
 
 @keyframes sliding-back {
-
 	from {transform: translateX(-400%)}
 	to {transform: translateX(0%)}
 }
 
-
-
 .forward {
-
 	animation: sliding-forward 2s ease-in-out;
 	transform: translateX(-400%);
-
 }
 
-
 .back {
-
 	animation: sliding-back 2s ease-in-out;
 	transform: translateX(0%);
 }
-
-
-
 
 .welcome-part .photo-div {
   padding: 50px 0 30px 0;
@@ -242,11 +227,9 @@ header .nav {
 .container .welcome-sec .contain {
   display: flex;
   justify-content: center;
-
-position: absolute;
+  position: absolute;
   left: 48.5%;
   top: 85%;
-
 }
 
 .container .welcome-sec .contain .circle {
@@ -413,8 +396,6 @@ position: absolute;
   top: -20px;
 }
 
-
-
 .project-4 .proj-screenshot,
 .project-5 .proj-screenshot,
 .project-6 .proj-screenshot,
@@ -437,7 +418,6 @@ position: absolute;
   width: 120%;
   transition: width 1s ease-in-out, height 1s ease-in-out;
 }
-
 
 .project-3 .website-link,
 .project-4 .website-link,
@@ -482,10 +462,8 @@ position: absolute;
 
 
 .contact {
-
   background-color: #2E2630;
   padding: 10px 0 20px 0;
-
 }
 
 .contact .contact-div {
@@ -542,7 +520,6 @@ position: absolute;
 }
 
 .contact .social i {
-
 	font-size: 25px;
 }
 .contact .social a:hover {
@@ -556,33 +533,25 @@ footer {
 }
 
 
-
 @media only screen and (max-width: 500px) {
 
 header .nav {
-
 		display: none;
 	}
 
 .nav-icon, .mobile-navbar {
-
 		display: block;
 	}
 
-
-
 .nav-icon i {
-
 		font-size: 40px;
 		color: white;
 		float: right;
 		margin: 10px;
 		cursor: pointer;
-
 	}
 
 .menu {
-
 		position: absolute;
 		right: 5px;
 		top: 5px;
@@ -593,35 +562,26 @@ header .nav {
 		background-color: #2E2630;
 		z-index: 1;
 		height: 99vh;
-
-
 	}
 
 .close i {
-
 		font-size: 40px;
 		text-align: right;
 		color: white;
-
 	}
 .close {
-
 		position: absolute;
 		right: 1px;
 		top: 1px;
 		display: none;
-
 	}
 .menu li:first-of-type {
-
 		margin-top: 200px;
 	}
 .menu li {
-
 		margin: 40px;
 	}
 .menu li a {
-
 		color: white;
 		text-decoration: none;
 		margin: 10px;
@@ -629,48 +589,36 @@ header .nav {
 	}
 
 .menu li a:hover {
-
 		color: #A3395B;
-
 	}
 
-
 .opened {
-
 		width: 98%;
 		transition: width 1s ease-in-out;
-
 	}
 
 .closed {
-
 		width: 0%;
 		transition: width 1s ease-in-out;
 	}
 
 .welcome-part h1 {
-
 		font-size: 40px;
 	}
 
 .welcome-part span {
-
 		font-size: 40px;
 	}
 
 .welcome-part p {
-
 		font-size: 25px;
 	}
 
 .container .welcome-sec .contain {
-
 		left: 45%;
-
 	}
 
 .container .welcome-sec .about {
-
 		width: 90%;
 	}
 
@@ -679,36 +627,28 @@ header .nav {
 	}
 
 .container .proj-contain {
-
 		width: 90%;
-
 	}
 
 .projects-sec .project-container {
-
 		flex-direction: column;
 		align-items: center;
 		flex-wrap: nowrap;
 	}
 
 .project-container .project-2 {
-
 		margin-right: 90px;
 	}
 
 .contact .contact-div {
-
 		width: 90%;
 	}
 
 .contact .contact-div h2 {
-
 		font-size: 25px;
-
 	}
 
 .contact .contact-div p {
-
 		font-size: 20px;
 	}
 }
