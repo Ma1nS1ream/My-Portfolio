@@ -40,7 +40,7 @@ if (window.matchMedia("(max-width: 500px)").matches) {
 			$(".less").removeClass("toggle");
 		} else {
 			document.querySelector(".project-" + i).style.display = "none";
-			//document.querySelector(".project-2").style.marginRight = "90px";
+			document.querySelector(".project-2").style.marginRight = "90px";
 			$(".more").removeClass("toggle");
 			$(".less").addClass("toggle");
 		}
@@ -56,7 +56,7 @@ if (window.matchMedia("(max-width: 500px)").matches) {
 			$(".less").removeClass("toggle");
 		} else {
 			document.querySelector(".project-" + i).style.display = "none";
-			//document.querySelector(".project-2").style.marginLeft = "60px";
+			document.querySelector(".project-2").style.marginLeft = "60px";
 			$(".more").removeClass("toggle");
 			$(".less").addClass("toggle");
 		}
